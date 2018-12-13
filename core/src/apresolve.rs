@@ -1,5 +1,5 @@
 const AP_FALLBACK: &'static str = "ap.spotify.com:443";
-const APRESOLVE_ENDPOINT: &'static str = "http://apresolve.spotify.com/";
+const APRESOLVE_ENDPOINT: &'static str = "https://apresolve.spotify.com/";
 
 use futures::{Future, Stream};
 use hyper::client::HttpConnector;
